@@ -15,7 +15,6 @@ const { Client, RichEmbed } = require("discord.js");
 var { Util } = require("discord.js");
 const { prefix, devs } = require("./config");
 const client = new Client({ disableEveryone: true });
-const ytdl = require("ytdl-core");
 const canvas = require("canvas");
 const convert = require("hh-mm-ss");
 const fetchVideoInfo = require("youtube-info");
